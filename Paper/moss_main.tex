@@ -462,6 +462,8 @@ Synthetic (9, instruction) & UltraChat, Self-Instruct, Cosmopedia, Code-Alpaca, 
 
 \paragraph{Extended limitations.} On the EMA path, Aioli's reported run uses a stateful EMA that deviates from the reference stateless reset, so its exact endpoint is implementation-specific though its near-uniform position is not.
 
+\paragraph{Generative AI Usage.} Generative AI was only used for editorial purposes (e.g., grammar fixes). All outputs were reviewed by the authors, and all ideas and technical contributions are the authors’ own.
+
 \paragraph{Released artifacts.} We release the synthetic-share trajectories, per-domain weight CSVs, the $L_2$-from-uniform curves, the held-out test-loss CSV, the estimated $A$-matrices and $p$-history, the FLOP table, the tiered configs, and all comparison figures, together with the single self-contained runner (\texttt{run\_experiment.py}) that regenerates them, so the family split can be reproduced and extended at the listed cost. Code and artifacts are available at \repolink; the runner exposes the three tiered configs and the held-out and static-retrain evaluation paths behind flags.
 
 \end{document}
