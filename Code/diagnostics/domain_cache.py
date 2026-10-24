@@ -1,4 +1,4 @@
-"""Materialize and reuse identical token blocks across rebuttal experiments."""
+"""Materialize and reuse identical token blocks across diagnostic experiments."""
 
 from __future__ import annotations
 

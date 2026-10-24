@@ -1,4 +1,4 @@
-"""Compact summaries designed for direct use in the rebuttal audit."""
+"""Compact per-seed and per-provenance summaries of the diagnostic runs."""
 
 from __future__ import annotations
 

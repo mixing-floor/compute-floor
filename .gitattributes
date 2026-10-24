@@ -1,0 +1,12 @@
+# Keep text files LF in every checkout so that sha256(Code/run_experiment.py)
+# matches the source_runner_sha256 recorded in Results/diagnostics/*/run_manifest.json.
+* text=auto eol=lf
+
+*.png binary
+*.pdf binary
+*.npy binary
+
+# Released artifacts are data, not source: hide them from GitHub language stats.
+Results/** linguist-generated
+Paper/*.sty linguist-vendored
+Paper/*.bst linguist-vendored

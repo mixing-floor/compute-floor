@@ -1071,7 +1071,7 @@ INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/reso
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
 DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [04:51<26:54,  7.56it/s]DoGE (logged):  31%|███       | 4400/14400 [09:42<22:03,  7.56it/s]DoGE (logged):  46%|████▌     | 6600/14400 [14:33<17:12,  7.56it/s]DoGE (logged):  61%|██████    | 8800/14400 [19:24<12:21,  7.56it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [24:15<07:29,  7.56it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [29:06<02:38,  7.56it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:49<00:00,  7.52it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:49<00:00,  7.54it/s]
-INFO:root:Saved completed seed 0 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/doge160_signal_heavy_s2/seed_0.npy
+INFO:root:Saved completed seed 0 to Results/diagnostics/doge160_signal_heavy_s2/seed_0.npy
 INFO:root:Starting experiment=doge160_signal seed=1
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
@@ -1080,12 +1080,12 @@ INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/reso
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
 DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [04:51<26:55,  7.55it/s]DoGE (logged):  31%|███       | 4400/14400 [09:42<22:04,  7.55it/s]DoGE (logged):  46%|████▌     | 6600/14400 [14:34<17:13,  7.55it/s]DoGE (logged):  61%|██████    | 8800/14400 [19:25<12:21,  7.55it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [24:16<07:30,  7.55it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [29:08<02:38,  7.55it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:51<00:00,  7.51it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:51<00:00,  7.53it/s]
-INFO:root:Saved completed seed 1 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/doge160_signal_heavy_s2/seed_1.npy
+INFO:root:Saved completed seed 1 to Results/diagnostics/doge160_signal_heavy_s2/seed_1.npy
 INFO:root:Starting experiment=doge160_signal seed=2
 Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:   1%|          | 1/148 [00:00<00:17,  8.63it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 841.13it/s]
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
 INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
 DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [04:51<26:54,  7.56it/s]DoGE (logged):  31%|███       | 4400/14400 [09:42<22:04,  7.55it/s]DoGE (logged):  46%|████▌     | 6600/14400 [14:33<17:12,  7.55it/s]DoGE (logged):  61%|██████    | 8800/14400 [19:25<12:21,  7.55it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [24:16<07:30,  7.55it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [29:07<02:38,  7.55it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:50<00:00,  7.51it/s]DoGE (logged): 100%|██████████| 14400/14400 [31:50<00:00,  7.54it/s]
-INFO:root:Saved completed seed 2 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/doge160_signal_heavy_s2/seed_2.npy
-INFO:root:Completed doge160_signal. Results: /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/doge160_signal_heavy_s2
+INFO:root:Saved completed seed 2 to Results/diagnostics/doge160_signal_heavy_s2/seed_2.npy
+INFO:root:Completed doge160_signal. Results: Results/diagnostics/doge160_signal_heavy_s2

@@ -1,4 +1,4 @@
-"""Immutable definitions of the two rebuttal experiments."""
+"""Immutable definitions of the two diagnostic experiments."""
 
 from __future__ import annotations
 

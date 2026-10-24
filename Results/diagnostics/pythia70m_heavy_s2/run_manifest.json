@@ -1,5 +1,5 @@
 {
-  "cache_root": "/home/dev/shayan_workspace/Main/Code/rebuttal_run/cache",
+  "cache_root": ".cache/diagnostics",
   "changes_from_submitted_heavy": {
     "model_name": [
       "EleutherAI/pythia-160m",
@@ -30,7 +30,7 @@
     "warmup_steps": 500,
     "weight_decay": 0.0
   },
-  "domain_cache": "/home/dev/shayan_workspace/Main/Code/rebuttal_run/cache/s2_9r_9s_b72abc48c2d5",
+  "domain_cache": ".cache/diagnostics/s2_9r_9s_b72abc48c2d5",
   "domain_cache_built": false,
   "domain_cache_fingerprint": "b72abc48c2d584a5b5c7e69f5fd11630f19d8ac97be6c855f623ca130558dbec",
   "environment": {
@@ -53,7 +53,7 @@
   "experiment": "pythia70m_heavy",
   "git_commit": "45ed46c0016d4be76013734c7051ec8ae8d222c7",
   "name": "Matched Pythia-70M replication at HEAVY settings",
-  "output_directory": "/home/dev/shayan_workspace/Main/Code/rebuttal_run/results/pythia70m_heavy_s2",
+  "output_directory": "Results/diagnostics/pythia70m_heavy_s2",
   "output_files": [
     "aggregate_trajectories.csv",
     "aioli_column_sum_signals.csv",
@@ -94,7 +94,7 @@
     1,
     2
   ],
-  "source_runner": "/home/dev/shayan_workspace/Main/Code/run_experiment.py",
+  "source_runner": "Code/run_experiment.py",
   "source_runner_sha256": "3f2b0010eaf2e0c2112ff9c5d011fbd3cc3af510950e905a7cd3f9381a47f369",
   "split_seed": 1234,
   "started_at_utc": "2026-07-21T02:18:39.470298+00:00",

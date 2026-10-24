@@ -41,13 +41,14 @@ def save_npy_atomic(path: Path, payload: Any) -> None:
 def save_seed_result(
     path: Path, result: dict[str, Any], metadata: dict[str, Any]
 ) -> None:
-    result["_rebuttal_metadata"] = metadata
+    result["_run_metadata"] = metadata
     save_npy_atomic(path, result)
 
 
 def load_seed_result(path: Path, expected: dict[str, Any]) -> dict[str, Any]:
     result = np.load(path, allow_pickle=True).item()
-    metadata = result.get("_rebuttal_metadata", {})
+    # Seed files released with the paper predate the key rename.
+    metadata = result.get("_run_metadata", result.get("_rebuttal_metadata", {}))
     mismatches = {
         key: (metadata.get(key), value)
         for key, value in expected.items()

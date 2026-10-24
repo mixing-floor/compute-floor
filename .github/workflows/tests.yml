@@ -1,0 +1,27 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      # CPU-only: the tests stub the runner, and the DoGE tensor test skips without PyTorch.
+      - run: pip install numpy pandas tabulate
+      - run: python -m unittest discover -s tests -v
+      - name: Runner matches the hash recorded in the released manifests
+        run: |
+          expected=$(python -c "import json; print(json.load(open('Results/diagnostics/pythia70m_heavy_s2/run_manifest.json'))['source_runner_sha256'])")
+          actual=$(sha256sum Code/run_experiment.py | cut -d' ' -f1)
+          echo "expected $expected"; echo "actual   $actual"
+          test "$expected" = "$actual"

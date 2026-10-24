@@ -1,21 +1,32 @@
 # Python
 __pycache__/
 *.py[cod]
-
-# local run outputs and backups (commit curated artifacts with git add -f)
-# aioli_runs/
-*.bak
+.venv/
+venv/
 .ipynb_checkpoints/
+*.egg-info/
 
-.venv/*
+# Local caches and scratch run outputs (released results live in Results/)
+.cache/
+runs/
+aioli_runs/
+*.bak
+*.tmp-*
+
 # LaTeX build artifacts
-Paper/latex/*.aux
-Paper/latex/*.log
-Paper/latex/*.out
-Paper/latex/*.bbl
-Paper/latex/*.blg
-Paper/latex/*.synctex.gz
-Paper/latex/*.fls
-Paper/latex/*.fdb_latexmk
-Paper/latex/*.xdv
-Paper/notes.md
+Paper/*.aux
+Paper/*.log
+Paper/*.out
+Paper/*.bbl
+Paper/*.blg
+Paper/*.synctex.gz
+Paper/*.fls
+Paper/*.fdb_latexmk
+Paper/*.xdv
+Paper/*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

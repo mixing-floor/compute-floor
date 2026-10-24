@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Regenerate the 3-panel central figure (f_central.png) from the aggregated CSVs.
 
-Fixes the reviewer-reported bug in panel (c): the y-limit clipped the upper error
-bars for Group-DRO (4.14+0.41), DoReMi-style (3.96+0.56) and Skill-It (4.19+0.37).
-The panel now sets its top limit from max(mean + std) with explicit headroom.
+Panel (c) sets its top y-limit from max(mean + std) with explicit headroom, so the
+upper error bars of Group-DRO, DoReMi-style and Skill-It are not clipped.
 
 Usage:
-    python Code/make_central_figure.py --out-dir Code/aioli_runs --fig Paper/latex/figures/f_central.png
+    python Code/make_central_figure.py   # Results/main -> Paper/figures/f_central.png
 """
 import argparse
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 import pandas as pd
 import matplotlib
@@ -40,9 +41,9 @@ ORDER = ["Group-DRO", "DoReMi-style", "Stratified", "Aioli", "DoGE", "Skill-It"]
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out-dir", default="Code/aioli_runs")
+    ap.add_argument("--out-dir", default=str(REPO_ROOT / "Results" / "main"))
     ap.add_argument("--tag", default="HEAVY_S2_9R_9S")
-    ap.add_argument("--fig", default="Paper/latex/figures/f_central.png")
+    ap.add_argument("--fig", default=str(REPO_ROOT / "Paper" / "figures" / "f_central.png"))
     a = ap.parse_args()
 
     out = Path(a.out_dir)

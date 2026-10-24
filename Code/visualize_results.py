@@ -2,9 +2,8 @@
 """
 Standalone figure generator for the Aioli data-mixing study.
 
-Reads the CSV artifacts written by run_experiment.py and reproduces all
-figures from Visualization_of_Baselines.ipynb, with proper multi-seed
-error bands where applicable.
+Reads the CSV artifacts written by run_experiment.py and regenerates the
+paper's appendix figures, with multi-seed error bands where applicable.
 
 Six figure types are produced per (config, scenario) tag:
   1. comparative_synth_share  — total synthetic share vs. round, all methods, ±1σ
@@ -19,7 +18,7 @@ Required CSVs (always written by run_experiment.py):
   agg_<tag>_synth_share.csv
   agg_<tag>_final_weights.csv
 
-Required CSVs for figures 4 & 5 (written by run_experiment.py after this fix):
+Required CSVs for figures 4 & 5:
   agg_<tag>_weight_trajectories.csv
   agg_<tag>_val_loss_trajectories.csv
 
@@ -27,19 +26,21 @@ Optional CSV (written only when --eval-test is passed to run_experiment.py):
   agg_<tag>_test_loss.csv
 
 Usage:
-    # single run
-    python visualize_results.py --out-dir Code/aioli_runs --config LIGHT --scenario S2_9R_9S
+    # all configs and scenarios found in Results/main (writes to Results/figures)
+    python Code/visualize_results.py
 
-    # all configs and scenarios found in the directory
-    python visualize_results.py --out-dir Code/aioli_runs --config ALL --scenario ALL
+    # single tag
+    python Code/visualize_results.py --config HEAVY --scenario S2_9R_9S
 
-    # custom figure output directory
-    python visualize_results.py --out-dir aioli_runs --config HEAVY --scenario S2_9R_9S --fig-dir Paper/figures
+    # custom directories
+    python Code/visualize_results.py --out-dir my_runs --fig-dir my_runs/figures
 """
 
 import argparse
 import sys
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 import numpy as np
 import pandas as pd
@@ -500,10 +501,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
-    ap.add_argument("--out-dir",  default="aioli_runs",
-                    help="Directory containing CSVs from run_experiment.py  (default: aioli_runs)")
-    ap.add_argument("--fig-dir",  default=None,
-                    help="Output directory for PNG figures  (default: <out-dir>/figures/)")
+    ap.add_argument("--out-dir",  default=str(REPO_ROOT / "Results" / "main"),
+                    help="Directory containing CSVs from run_experiment.py  (default: Results/main)")
+    ap.add_argument("--fig-dir",  default=str(REPO_ROOT / "Results" / "figures"),
+                    help="Output directory for PNG figures  (default: Results/figures)")
     ap.add_argument("--config",   default="ALL",
                     help="Config name: SUPER_LIGHT, LIGHT, HEAVY, or ALL  (default: ALL)")
     ap.add_argument("--scenario", default="ALL",
@@ -511,7 +512,7 @@ def main():
     args = ap.parse_args()
 
     out_dir = Path(args.out_dir)
-    fig_dir = Path(args.fig_dir) if args.fig_dir else out_dir / "figures"
+    fig_dir = Path(args.fig_dir)
     fig_dir.mkdir(parents=True, exist_ok=True)
 
     configs   = ALL_CONFIGS   if args.config   == "ALL" else [c.strip() for c in args.config.split(",")]

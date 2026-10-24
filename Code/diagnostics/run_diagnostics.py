@@ -1,4 +1,4 @@
-"""Run either rebuttal-strengthening experiment on a GPU server."""
+"""Run either signal-level diagnostic experiment on a GPU server."""
 
 from __future__ import annotations
 
@@ -10,16 +10,16 @@ from pathlib import Path
 
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-    from rebuttal_run.artifact_io import write_final_artifacts  # type: ignore
-    from rebuttal_run.cli_options import build_plan, parse_args, resolve_device  # type: ignore
-    from rebuttal_run.domain_cache import load_or_build_domains  # type: ignore
-    from rebuttal_run.experiment_execution import run_doge_only_seed, run_full_seed  # type: ignore
-    from rebuttal_run.experiment_specs import (  # type: ignore
+    from diagnostics.artifact_io import write_final_artifacts  # type: ignore
+    from diagnostics.cli_options import build_plan, parse_args, resolve_device  # type: ignore
+    from diagnostics.domain_cache import load_or_build_domains  # type: ignore
+    from diagnostics.experiment_execution import run_doge_only_seed, run_full_seed  # type: ignore
+    from diagnostics.experiment_specs import (  # type: ignore
         EXPERIMENTS,
         build_config,
         validate_spec_config,
     )
-    from rebuttal_run.runtime_metadata import (
+    from diagnostics.runtime_metadata import (
         environment,
         git_commit,
         package_sha256,
@@ -27,8 +27,8 @@ if __package__ in (None, ""):
         sha256,
         utc_now,
     )  # type: ignore
-    from rebuttal_run.source_runner import SOURCE_RUNNER_PATH, core  # type: ignore
-    from rebuttal_run.seed_storage import (  # type: ignore
+    from diagnostics.source_runner import SOURCE_RUNNER_PATH, core  # type: ignore
+    from diagnostics.seed_storage import (  # type: ignore
         load_seed_result,
         save_seed_result,
         write_json_atomic,
@@ -62,7 +62,7 @@ def main() -> None:
     logging.basicConfig(
         level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s"
     )
-    args = parse_args(EXPERIMENTS, __doc__ or "Rebuttal GPU experiments")
+    args = parse_args(EXPERIMENTS, __doc__ or "Signal-level diagnostic experiments")
     spec = EXPERIMENTS[args.experiment]
     cfg = build_config(core, spec)
     validate_spec_config(core, spec, cfg)
@@ -86,7 +86,7 @@ def main() -> None:
         "started_at_utc": utc_now(),
         "source_runner": str(SOURCE_RUNNER_PATH),
         "source_runner_sha256": sha256(SOURCE_RUNNER_PATH),
-        "rebuttal_code_sha256": package_sha256(Path(__file__).resolve().parent),
+        "diagnostics_code_sha256": package_sha256(Path(__file__).resolve().parent),
         "git_commit": git_commit(SOURCE_RUNNER_PATH.parents[1]),
         "environment": environment(core, device),
     }

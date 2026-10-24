@@ -10,11 +10,11 @@ from pathlib import Path
 import numpy as np
 
 if __package__ in (None, ""):
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "Code"))
 
 try:
     import torch
-    from rebuttal_run.doge_diagnostics import gradient_alignment_diagnostics
+    from diagnostics.doge_diagnostics import gradient_alignment_diagnostics
 
     TORCH_AVAILABLE = True
 except (ImportError, OSError):

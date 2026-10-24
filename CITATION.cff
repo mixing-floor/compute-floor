@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the paper below."
+title: "compute-floor: code and results for The Compute Floor of Data Mixing"
+type: software
+authors:
+  - family-names: Salehi
+    given-names: Shayan
+    affiliation: University of Waterloo
+  - family-names: Mohammadi
+    given-names: Iman
+    affiliation: University of California, Irvine
+repository-code: "https://github.com/mixing-floor/compute-floor"
+url: "https://mixing-floor.github.io"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-24
+keywords:
+  - data mixing
+  - domain reweighting
+  - language model pretraining
+  - synthetic data
+  - small-scale research
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: "The Compute Floor of Data Mixing: When Loss-Based Reweighters Start to Drain Easy Synthetic Text"
+  authors:
+    - family-names: Salehi
+      given-names: Shayan
+      affiliation: University of Waterloo
+    - family-names: Mohammadi
+      given-names: Iman
+      affiliation: University of California, Irvine
+  collection-title: "MOSS Workshop at the Conference on Language Modeling (COLM)"
+  year: 2026
+  url: "https://mixing-floor.github.io"
+  repository-code: "https://github.com/mixing-floor/compute-floor"

@@ -1,4 +1,4 @@
-"""Runtime provenance recorded alongside rebuttal experiment artifacts."""
+"""Runtime provenance recorded alongside diagnostic experiment artifacts."""
 
 from __future__ import annotations
 
@@ -86,5 +86,5 @@ def seed_metadata(
         "tokenizer_name": cfg["tokenizer_name"],
         "evaluate_test": evaluate_test,
         "source_runner_sha256": sha256(source_runner_path),
-        "rebuttal_code_sha256": package_sha256(package_dir),
+        "diagnostics_code_sha256": package_sha256(package_dir),
     }

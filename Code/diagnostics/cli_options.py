@@ -10,13 +10,17 @@ from .experiment_specs import changed_heavy_fields
 
 
 def parse_args(experiments: dict[str, Any], description: str) -> argparse.Namespace:
-    package_dir = Path(__file__).resolve().parent
+    repo_root = Path(__file__).resolve().parents[2]
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("experiment", choices=sorted(experiments))
     parser.add_argument("--seeds", nargs="+", type=int, default=[0, 1, 2])
     parser.add_argument("--split-seed", type=int, default=1234)
-    parser.add_argument("--output-root", type=Path, default=package_dir / "results")
-    parser.add_argument("--cache-root", type=Path, default=package_dir / "cache")
+    parser.add_argument(
+        "--output-root", type=Path, default=repo_root / "runs" / "diagnostics"
+    )
+    parser.add_argument(
+        "--cache-root", type=Path, default=repo_root / ".cache" / "diagnostics"
+    )
     parser.add_argument(
         "--resume", action="store_true", help="Reuse compatible completed seed files."
     )

@@ -10,10 +10,10 @@ from pathlib import Path
 import numpy as np
 
 if __package__ in (None, ""):
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "Code"))
 
-from rebuttal_run.skillit_diagnostics import run_skillit_logged
-from rebuttal_run.skillit_tables import skillit_graph_table, skillit_signal_tables
+from diagnostics.skillit_diagnostics import run_skillit_logged
+from diagnostics.skillit_tables import skillit_graph_table, skillit_signal_tables
 
 
 class FakeProgress:

@@ -1,4 +1,4 @@
-"""Seed-level execution paths for the two rebuttal experiments."""
+"""Seed-level execution paths for the two diagnostic experiments."""
 
 from __future__ import annotations
 

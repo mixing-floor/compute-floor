@@ -1,4 +1,4 @@
-"""Convert experiment histories into analysis-ready rebuttal tables."""
+"""Convert experiment histories into analysis-ready diagnostic tables."""
 
 from __future__ import annotations
 

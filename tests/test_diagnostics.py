@@ -1,4 +1,4 @@
-"""CPU-safe unit tests for the rebuttal experiment package."""
+"""CPU-safe unit tests for the diagnostics package."""
 
 from __future__ import annotations
 
@@ -11,17 +11,17 @@ import numpy as np
 import pandas as pd
 
 if __package__ in (None, ""):
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "Code"))
 
-from rebuttal_run.analysis_tables import doge_signal_tables, l2_decomposition
-from rebuttal_run.artifact_io import write_final_artifacts
-from rebuttal_run.experiment_specs import (
+from diagnostics.analysis_tables import doge_signal_tables, l2_decomposition
+from diagnostics.artifact_io import write_final_artifacts
+from diagnostics.experiment_specs import (
     EXPERIMENTS,
     build_config,
     changed_heavy_fields,
     validate_spec_config,
 )
-from rebuttal_run.seed_storage import load_seed_result, save_seed_result
+from diagnostics.seed_storage import load_seed_result, save_seed_result
 
 
 class FakeConfigCore:
@@ -98,7 +98,7 @@ class FakeArtifactCore:
         return frame, 1
 
 
-class RebuttalRunTests(unittest.TestCase):
+class DiagnosticsTests(unittest.TestCase):
     def test_70m_ablation_changes_only_model(self):
         spec = EXPERIMENTS["pythia70m_heavy"]
         cfg = build_config(FakeConfigCore, spec)

@@ -17,7 +17,7 @@ from .analysis_tables import (
 from .flop_artifacts import write_flop_artifacts
 from .seed_storage import save_npy_atomic
 from .skillit_tables import skillit_graph_table, skillit_signal_tables
-from .rebuttal_summaries import (
+from .summaries import (
     aioli_provenance_summary,
     final_mixture_aggregate,
     score_seed_summary,
