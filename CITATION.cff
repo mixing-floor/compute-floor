@@ -12,8 +12,16 @@ authors:
 repository-code: "https://github.com/mixing-floor/compute-floor"
 url: "https://mixing-floor.github.io"
 license: MIT
-version: 1.0.0
+version: v1.0-camera-ready
 date-released: 2026-10-24
+doi: 10.5281/zenodo.23618257
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23618257
+    description: "Zenodo archive of the v1.0-camera-ready release"
+  - type: doi
+    value: 10.5281/zenodo.23618256
+    description: "Zenodo concept DOI, resolves to the latest version"
 keywords:
   - data mixing
   - domain reweighting

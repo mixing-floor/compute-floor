@@ -11,6 +11,7 @@
 *MOSS Workshop at COLM 2026*
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](Paper/moss_main.pdf)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23618257.svg)](https://doi.org/10.5281/zenodo.23618257)
 [![Project page](https://img.shields.io/badge/Project-page-1f4e79.svg)](https://mixing-floor.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](requirements.txt)
@@ -206,7 +207,21 @@ The study covers one scenario (S2), one model size per tier and three seeds. Tes
 }
 ```
 
-GitHub's **Cite this repository** button reads the same entry from [`CITATION.cff`](CITATION.cff).
+To cite the code and released results, use the archived release on Zenodo:
+
+```bibtex
+@software{salehi2026computefloor_code,
+  title     = {compute-floor: code and results for The Compute Floor of Data Mixing},
+  author    = {Salehi, Shayan and Mohammadi, Iman},
+  year      = {2026},
+  version   = {v1.0-camera-ready},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23618257},
+  url       = {https://doi.org/10.5281/zenodo.23618257}
+}
+```
+
+[`10.5281/zenodo.23618257`](https://doi.org/10.5281/zenodo.23618257) pins the exact `v1.0-camera-ready` release used in the paper. [`10.5281/zenodo.23618256`](https://doi.org/10.5281/zenodo.23618256) always resolves to the latest version. GitHub's **Cite this repository** button reads [`CITATION.cff`](CITATION.cff).
 
 ## License and acknowledgements
 
