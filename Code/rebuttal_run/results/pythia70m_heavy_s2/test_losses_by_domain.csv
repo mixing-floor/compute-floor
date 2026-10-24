@@ -1,0 +1,325 @@
+method,seed,domain,is_synth,test_loss
+Aioli,0,Wikipedia (en),False,4.24264399210612
+Aioli,0,Pile-CC,False,4.379632790883382
+Aioli,0,OpenWebText2,False,4.427184422810872
+Aioli,0,Github,False,2.2036909262339273
+Aioli,0,PubMed Abstracts,False,3.940904458363851
+Aioli,0,StackExchange,False,3.2315038045247397
+Aioli,0,FreeLaw,False,3.4638338883717856
+Aioli,0,USPTO Backgrounds,False,3.567442258199056
+Aioli,0,ArXiv,False,2.905266443888346
+Aioli,0,UltraChat,True,3.046656688054403
+Aioli,0,Self-Instruct,True,3.650731086730957
+Aioli,0,Cosmopedia,True,3.0748797257741294
+Aioli,0,Code-Alpaca,True,1.6127697229385376
+Aioli,0,GPTeacher,True,2.762338558832804
+Aioli,0,WizardLM-70k,True,2.541294813156128
+Aioli,0,Alpaca-52k,True,2.619670311609904
+Aioli,0,ShareGPT,True,2.510802666346232
+Aioli,0,Open-Platypus,True,1.863823413848877
+Stratified,0,Wikipedia (en),False,4.215494155883789
+Stratified,0,Pile-CC,False,4.348923365275065
+Stratified,0,OpenWebText2,False,4.403766632080078
+Stratified,0,Github,False,2.181168874104818
+Stratified,0,PubMed Abstracts,False,3.917905886967977
+Stratified,0,StackExchange,False,3.2092036406199136
+Stratified,0,FreeLaw,False,3.4186991850535073
+Stratified,0,USPTO Backgrounds,False,3.547700564066569
+Stratified,0,ArXiv,False,2.870257616043091
+Stratified,0,UltraChat,True,3.00919238726298
+Stratified,0,Self-Instruct,True,3.6295777956644693
+Stratified,0,Cosmopedia,True,3.022913376490275
+Stratified,0,Code-Alpaca,True,1.584065039952596
+Stratified,0,GPTeacher,True,2.7210768858591714
+Stratified,0,WizardLM-70k,True,2.5101958910624185
+Stratified,0,Alpaca-52k,True,2.5819979508717856
+Stratified,0,ShareGPT,True,2.484936237335205
+Stratified,0,Open-Platypus,True,1.8299800554911296
+DoReMi-style,0,Wikipedia (en),False,4.274502595265706
+DoReMi-style,0,Pile-CC,False,4.414423942565918
+DoReMi-style,0,OpenWebText2,False,4.462084134419759
+DoReMi-style,0,Github,False,2.203019618988037
+DoReMi-style,0,PubMed Abstracts,False,3.964827219645182
+DoReMi-style,0,StackExchange,False,3.2670368353525796
+DoReMi-style,0,FreeLaw,False,3.4799207051595054
+DoReMi-style,0,USPTO Backgrounds,False,3.5861544609069824
+DoReMi-style,0,ArXiv,False,2.921427011489868
+DoReMi-style,0,UltraChat,True,3.108562628428141
+DoReMi-style,0,Self-Instruct,True,3.703357696533203
+DoReMi-style,0,Cosmopedia,True,3.1762887636820474
+DoReMi-style,0,Code-Alpaca,True,1.7130786577860515
+DoReMi-style,0,GPTeacher,True,2.889420986175537
+DoReMi-style,0,WizardLM-70k,True,2.6227261225382485
+DoReMi-style,0,Alpaca-52k,True,2.714139699935913
+DoReMi-style,0,ShareGPT,True,2.571833292643229
+DoReMi-style,0,Open-Platypus,True,1.94170081615448
+Group-DRO,0,Wikipedia (en),False,4.315309842427571
+Group-DRO,0,Pile-CC,False,4.454898834228516
+Group-DRO,0,OpenWebText2,False,4.530495484670003
+Group-DRO,0,Github,False,2.232144355773926
+Group-DRO,0,PubMed Abstracts,False,4.006287018458049
+Group-DRO,0,StackExchange,False,3.264799197514852
+Group-DRO,0,FreeLaw,False,3.4512318770090737
+Group-DRO,0,USPTO Backgrounds,False,3.588073253631592
+Group-DRO,0,ArXiv,False,2.9226839542388916
+Group-DRO,0,UltraChat,True,3.060626983642578
+Group-DRO,0,Self-Instruct,True,3.6635501384735107
+Group-DRO,0,Cosmopedia,True,3.0827480951944985
+Group-DRO,0,Code-Alpaca,True,1.6804664134979248
+Group-DRO,0,GPTeacher,True,2.776764154434204
+Group-DRO,0,WizardLM-70k,True,2.573504686355591
+Group-DRO,0,Alpaca-52k,True,2.6370222568511963
+Group-DRO,0,ShareGPT,True,2.5893123149871826
+Group-DRO,0,Open-Platypus,True,1.9116535186767578
+DoGE,0,Wikipedia (en),False,4.2666042645772295
+DoGE,0,Pile-CC,False,4.3930122057596845
+DoGE,0,OpenWebText2,False,4.442460536956787
+DoGE,0,Github,False,2.2149558862050376
+DoGE,0,PubMed Abstracts,False,3.9638081391652427
+DoGE,0,StackExchange,False,3.236640214920044
+DoGE,0,FreeLaw,False,3.4947174390157065
+DoGE,0,USPTO Backgrounds,False,3.5934488773345947
+DoGE,0,ArXiv,False,2.9262744585673013
+DoGE,0,UltraChat,True,3.034942070643107
+DoGE,0,Self-Instruct,True,3.66272242863973
+DoGE,0,Cosmopedia,True,3.057931661605835
+DoGE,0,Code-Alpaca,True,1.5974892775217693
+DoGE,0,GPTeacher,True,2.7848073641459146
+DoGE,0,WizardLM-70k,True,2.5431573390960693
+DoGE,0,Alpaca-52k,True,2.605698347091675
+DoGE,0,ShareGPT,True,2.5385444164276123
+DoGE,0,Open-Platypus,True,1.8415091037750244
+Skill-It,0,Wikipedia (en),False,4.2280832926432295
+Skill-It,0,Pile-CC,False,4.363929271697998
+Skill-It,0,OpenWebText2,False,4.4305399258931475
+Skill-It,0,Github,False,2.1759426593780518
+Skill-It,0,PubMed Abstracts,False,3.936165968577067
+Skill-It,0,StackExchange,False,3.225772221883138
+Skill-It,0,FreeLaw,False,3.4512997468312583
+Skill-It,0,USPTO Backgrounds,False,3.5747812589009604
+Skill-It,0,ArXiv,False,2.9097705682118735
+Skill-It,0,UltraChat,True,3.0232976277669272
+Skill-It,0,Self-Instruct,True,3.6455838680267334
+Skill-It,0,Cosmopedia,True,3.044910987218221
+Skill-It,0,Code-Alpaca,True,1.6029500166575115
+Skill-It,0,GPTeacher,True,2.7448018391927085
+Skill-It,0,WizardLM-70k,True,2.5273653666178384
+Skill-It,0,Alpaca-52k,True,2.5934712886810303
+Skill-It,0,ShareGPT,True,2.4777440230051675
+Skill-It,0,Open-Platypus,True,1.9066046078999836
+Aioli,1,Wikipedia (en),False,4.243938128153483
+Aioli,1,Pile-CC,False,4.387624740600586
+Aioli,1,OpenWebText2,False,4.439382235209147
+Aioli,1,Github,False,2.1894263426462808
+Aioli,1,PubMed Abstracts,False,3.9445741971333823
+Aioli,1,StackExchange,False,3.2428740660349527
+Aioli,1,FreeLaw,False,3.4620820681254068
+Aioli,1,USPTO Backgrounds,False,3.560633897781372
+Aioli,1,ArXiv,False,2.914288282394409
+Aioli,1,UltraChat,True,3.051619370778402
+Aioli,1,Self-Instruct,True,3.653467337290446
+Aioli,1,Cosmopedia,True,3.0691874821980796
+Aioli,1,Code-Alpaca,True,1.6077893575032551
+Aioli,1,GPTeacher,True,2.7621397177378335
+Aioli,1,WizardLM-70k,True,2.544254461924235
+Aioli,1,Alpaca-52k,True,2.6195825735727944
+Aioli,1,ShareGPT,True,2.5197884241739907
+Aioli,1,Open-Platypus,True,1.8655016819636028
+Stratified,1,Wikipedia (en),False,4.2490010261535645
+Stratified,1,Pile-CC,False,4.38358736038208
+Stratified,1,OpenWebText2,False,4.443854808807373
+Stratified,1,Github,False,2.2075466314951577
+Stratified,1,PubMed Abstracts,False,3.9490298430124917
+Stratified,1,StackExchange,False,3.2436349391937256
+Stratified,1,FreeLaw,False,3.4667622248331704
+Stratified,1,USPTO Backgrounds,False,3.571258783340454
+Stratified,1,ArXiv,False,2.917350927988688
+Stratified,1,UltraChat,True,3.0492231051127114
+Stratified,1,Self-Instruct,True,3.6581610838572183
+Stratified,1,Cosmopedia,True,3.077813148498535
+Stratified,1,Code-Alpaca,True,1.6099062363306682
+Stratified,1,GPTeacher,True,2.76927383740743
+Stratified,1,WizardLM-70k,True,2.5407024224599204
+Stratified,1,Alpaca-52k,True,2.623249610265096
+Stratified,1,ShareGPT,True,2.5346883138020835
+Stratified,1,Open-Platypus,True,1.8630272547403972
+DoReMi-style,1,Wikipedia (en),False,4.2444748878479
+DoReMi-style,1,Pile-CC,False,4.380329449971517
+DoReMi-style,1,OpenWebText2,False,4.439407507578532
+DoReMi-style,1,Github,False,2.1912148793538413
+DoReMi-style,1,PubMed Abstracts,False,3.9549671014149985
+DoReMi-style,1,StackExchange,False,3.230630079905192
+DoReMi-style,1,FreeLaw,False,3.4288819630940757
+DoReMi-style,1,USPTO Backgrounds,False,3.565701643625895
+DoReMi-style,1,ArXiv,False,2.8770360946655273
+DoReMi-style,1,UltraChat,True,3.052387237548828
+DoReMi-style,1,Self-Instruct,True,3.6503751277923584
+DoReMi-style,1,Cosmopedia,True,3.1066510677337646
+DoReMi-style,1,Code-Alpaca,True,1.6457318464914958
+DoReMi-style,1,GPTeacher,True,2.8120156129201255
+DoReMi-style,1,WizardLM-70k,True,2.5539735158284507
+DoReMi-style,1,Alpaca-52k,True,2.6468937397003174
+DoReMi-style,1,ShareGPT,True,2.516488711039225
+DoReMi-style,1,Open-Platypus,True,1.8784204721450806
+Group-DRO,1,Wikipedia (en),False,4.304670492808024
+Group-DRO,1,Pile-CC,False,4.449229558308919
+Group-DRO,1,OpenWebText2,False,4.541464646657308
+Group-DRO,1,Github,False,2.214259624481201
+Group-DRO,1,PubMed Abstracts,False,4.006194432576497
+Group-DRO,1,StackExchange,False,3.2491324742635093
+Group-DRO,1,FreeLaw,False,3.4465347131093345
+Group-DRO,1,USPTO Backgrounds,False,3.5743064085642495
+Group-DRO,1,ArXiv,False,2.905331293741862
+Group-DRO,1,UltraChat,True,3.049405574798584
+Group-DRO,1,Self-Instruct,True,3.6495755513509116
+Group-DRO,1,Cosmopedia,True,3.0765585899353027
+Group-DRO,1,Code-Alpaca,True,1.658340295155843
+Group-DRO,1,GPTeacher,True,2.76503324508667
+Group-DRO,1,WizardLM-70k,True,2.549173593521118
+Group-DRO,1,Alpaca-52k,True,2.6199668248494468
+Group-DRO,1,ShareGPT,True,2.5901269912719727
+Group-DRO,1,Open-Platypus,True,1.8930100599924724
+DoGE,1,Wikipedia (en),False,4.236274401346843
+DoGE,1,Pile-CC,False,4.372537771860759
+DoGE,1,OpenWebText2,False,4.431278228759766
+DoGE,1,Github,False,2.1982759634653726
+DoGE,1,PubMed Abstracts,False,3.964817841847738
+DoGE,1,StackExchange,False,3.225618282953898
+DoGE,1,FreeLaw,False,3.4515467484792075
+DoGE,1,USPTO Backgrounds,False,3.5765881538391113
+DoGE,1,ArXiv,False,2.881641387939453
+DoGE,1,UltraChat,True,3.0189727942148843
+DoGE,1,Self-Instruct,True,3.6486162344614663
+DoGE,1,Cosmopedia,True,3.0413033167521157
+DoGE,1,Code-Alpaca,True,1.6211379369099934
+DoGE,1,GPTeacher,True,2.737249215443929
+DoGE,1,WizardLM-70k,True,2.529358228047689
+DoGE,1,Alpaca-52k,True,2.597186009089152
+DoGE,1,ShareGPT,True,2.4834611415863037
+DoGE,1,Open-Platypus,True,1.8605717023213704
+Skill-It,1,Wikipedia (en),False,4.256087303161621
+Skill-It,1,Pile-CC,False,4.389156977335612
+Skill-It,1,OpenWebText2,False,4.438488960266113
+Skill-It,1,Github,False,2.188805182774862
+Skill-It,1,PubMed Abstracts,False,3.9640137354532876
+Skill-It,1,StackExchange,False,3.226990222930908
+Skill-It,1,FreeLaw,False,3.467962106068929
+Skill-It,1,USPTO Backgrounds,False,3.5720481872558594
+Skill-It,1,ArXiv,False,2.924110492070516
+Skill-It,1,UltraChat,True,3.041248003641764
+Skill-It,1,Self-Instruct,True,3.647792180379232
+Skill-It,1,Cosmopedia,True,3.0541141033172607
+Skill-It,1,Code-Alpaca,True,1.6203187306722004
+Skill-It,1,GPTeacher,True,2.741511027018229
+Skill-It,1,WizardLM-70k,True,2.5392936865488687
+Skill-It,1,Alpaca-52k,True,2.607633908589681
+Skill-It,1,ShareGPT,True,2.4794891675313315
+Skill-It,1,Open-Platypus,True,1.904649058977763
+Aioli,2,Wikipedia (en),False,4.231697718302409
+Aioli,2,Pile-CC,False,4.3666001955668134
+Aioli,2,OpenWebText2,False,4.432816346486409
+Aioli,2,Github,False,2.1968260606129966
+Aioli,2,PubMed Abstracts,False,3.9363537629445395
+Aioli,2,StackExchange,False,3.2305004596710205
+Aioli,2,FreeLaw,False,3.4571444988250732
+Aioli,2,USPTO Backgrounds,False,3.5654220581054688
+Aioli,2,ArXiv,False,2.9018837610880532
+Aioli,2,UltraChat,True,3.039863665898641
+Aioli,2,Self-Instruct,True,3.648940086364746
+Aioli,2,Cosmopedia,True,3.0614895820617676
+Aioli,2,Code-Alpaca,True,1.6085584958394368
+Aioli,2,GPTeacher,True,2.757210652033488
+Aioli,2,WizardLM-70k,True,2.5433247884114585
+Aioli,2,Alpaca-52k,True,2.6143394311269126
+Aioli,2,ShareGPT,True,2.517909129460653
+Aioli,2,Open-Platypus,True,1.8567811648050945
+Stratified,2,Wikipedia (en),False,4.236072381337483
+Stratified,2,Pile-CC,False,4.367235024770101
+Stratified,2,OpenWebText2,False,4.427759170532227
+Stratified,2,Github,False,2.1945763429005942
+Stratified,2,PubMed Abstracts,False,3.9559651215871177
+Stratified,2,StackExchange,False,3.2396426995595298
+Stratified,2,FreeLaw,False,3.44832436243693
+Stratified,2,USPTO Backgrounds,False,3.562361796696981
+Stratified,2,ArXiv,False,2.8977643648783364
+Stratified,2,UltraChat,True,3.0288890997568765
+Stratified,2,Self-Instruct,True,3.6474314530690513
+Stratified,2,Cosmopedia,True,3.0515344937642417
+Stratified,2,Code-Alpaca,True,1.6143131256103516
+Stratified,2,GPTeacher,True,2.743426243464152
+Stratified,2,WizardLM-70k,True,2.5367228984832764
+Stratified,2,Alpaca-52k,True,2.6107304890950522
+Stratified,2,ShareGPT,True,2.504336357116699
+Stratified,2,Open-Platypus,True,1.8547591368357341
+DoReMi-style,2,Wikipedia (en),False,4.265858014424642
+DoReMi-style,2,Pile-CC,False,4.400263627370198
+DoReMi-style,2,OpenWebText2,False,4.45385201772054
+DoReMi-style,2,Github,False,2.2045583724975586
+DoReMi-style,2,PubMed Abstracts,False,3.966373602549235
+DoReMi-style,2,StackExchange,False,3.2491347789764404
+DoReMi-style,2,FreeLaw,False,3.4695800145467124
+DoReMi-style,2,USPTO Backgrounds,False,3.578052043914795
+DoReMi-style,2,ArXiv,False,2.9122190475463867
+DoReMi-style,2,UltraChat,True,3.0898439089457193
+DoReMi-style,2,Self-Instruct,True,3.687771956125895
+DoReMi-style,2,Cosmopedia,True,3.1494171619415283
+DoReMi-style,2,Code-Alpaca,True,1.6963452498118083
+DoReMi-style,2,GPTeacher,True,2.862123886744181
+DoReMi-style,2,WizardLM-70k,True,2.5977484385172525
+DoReMi-style,2,Alpaca-52k,True,2.687049388885498
+DoReMi-style,2,ShareGPT,True,2.5781750679016113
+DoReMi-style,2,Open-Platypus,True,1.9229105313618977
+Group-DRO,2,Wikipedia (en),False,4.273054440816243
+Group-DRO,2,Pile-CC,False,4.418672879536946
+Group-DRO,2,OpenWebText2,False,4.483009338378906
+Group-DRO,2,Github,False,2.22727378209432
+Group-DRO,2,PubMed Abstracts,False,3.9936374028523765
+Group-DRO,2,StackExchange,False,3.2625743548075357
+Group-DRO,2,FreeLaw,False,3.4644567171732583
+Group-DRO,2,USPTO Backgrounds,False,3.5703624884287515
+Group-DRO,2,ArXiv,False,2.906911849975586
+Group-DRO,2,UltraChat,True,3.054661750793457
+Group-DRO,2,Self-Instruct,True,3.665160814921061
+Group-DRO,2,Cosmopedia,True,3.0912497838338218
+Group-DRO,2,Code-Alpaca,True,1.6980696121851604
+Group-DRO,2,GPTeacher,True,2.789945046106974
+Group-DRO,2,WizardLM-70k,True,2.5796096324920654
+Group-DRO,2,Alpaca-52k,True,2.639875650405884
+Group-DRO,2,ShareGPT,True,2.6154167652130127
+Group-DRO,2,Open-Platypus,True,1.919123927752177
+DoGE,2,Wikipedia (en),False,4.248695055643718
+DoGE,2,Pile-CC,False,4.371641794840495
+DoGE,2,OpenWebText2,False,4.437054793039958
+DoGE,2,Github,False,2.201059182484945
+DoGE,2,PubMed Abstracts,False,3.9469753901163735
+DoGE,2,StackExchange,False,3.2211825847625732
+DoGE,2,FreeLaw,False,3.477703015009562
+DoGE,2,USPTO Backgrounds,False,3.5661232471466064
+DoGE,2,ArXiv,False,2.8845470746358237
+DoGE,2,UltraChat,True,3.025972048441569
+DoGE,2,Self-Instruct,True,3.64998467763265
+DoGE,2,Cosmopedia,True,3.0442070960998535
+DoGE,2,Code-Alpaca,True,1.6539924144744873
+DoGE,2,GPTeacher,True,2.7523810863494873
+DoGE,2,WizardLM-70k,True,2.533437887827555
+DoGE,2,Alpaca-52k,True,2.5907941659291587
+DoGE,2,ShareGPT,True,2.539722998936971
+DoGE,2,Open-Platypus,True,1.885663906733195
+Skill-It,2,Wikipedia (en),False,4.2534589767456055
+Skill-It,2,Pile-CC,False,4.389385382334392
+Skill-It,2,OpenWebText2,False,4.447233517964681
+Skill-It,2,Github,False,2.1959396998087564
+Skill-It,2,PubMed Abstracts,False,3.977388540903727
+Skill-It,2,StackExchange,False,3.242396593093872
+Skill-It,2,FreeLaw,False,3.490546703338623
+Skill-It,2,USPTO Backgrounds,False,3.5787644386291504
+Skill-It,2,ArXiv,False,2.9215828577677407
+Skill-It,2,UltraChat,True,3.0415530999501548
+Skill-It,2,Self-Instruct,True,3.6556946436564126
+Skill-It,2,Cosmopedia,True,3.0528632005055747
+Skill-It,2,Code-Alpaca,True,1.6493698358535767
+Skill-It,2,GPTeacher,True,2.7659108638763428
+Skill-It,2,WizardLM-70k,True,2.5460686683654785
+Skill-It,2,Alpaca-52k,True,2.6219839255015054
+Skill-It,2,ShareGPT,True,2.4948599338531494
+Skill-It,2,Open-Platypus,True,1.9003914594650269

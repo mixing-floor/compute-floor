@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# local run outputs and backups (commit curated artifacts with git add -f)
+# aioli_runs/
+*.bak
+.ipynb_checkpoints/
+
+.venv/*
+# LaTeX build artifacts
+Paper/latex/*.aux
+Paper/latex/*.log
+Paper/latex/*.out
+Paper/latex/*.bbl
+Paper/latex/*.blg
+Paper/latex/*.synctex.gz
+Paper/latex/*.fls
+Paper/latex/*.fdb_latexmk
+Paper/latex/*.xdv
+Paper/notes.md

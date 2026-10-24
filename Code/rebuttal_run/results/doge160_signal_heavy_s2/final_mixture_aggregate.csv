@@ -1,0 +1,2 @@
+method,synthetic_share_mean,l2_mean,between_provenance_l2_sq_mean,within_provenance_l2_sq_mean,within_fraction_l2_sq_mean,synthetic_share_std,l2_std,between_provenance_l2_sq_std,within_provenance_l2_sq_std,within_fraction_l2_sq_std
+DoGE,0.49263868785458254,0.05726971661551978,2.7851993747127923e-05,0.0032953814498783572,0.9885484254557851,0.008434752833355852,0.0065888544075235365,3.199794725307658e-05,0.0007613455998638725,0.014168051734413564

@@ -1,0 +1,558 @@
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-160m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-160m/50f5173d932e8e61f858120bcb800b97af589f46/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/EleutherAI/pythia-160m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:root:Starting experiment=pythia70m_heavy seed=0
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   1%|▏         | 1/76 [00:00<00:09,  8.03it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 450.07it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Aioli:   0%|          | 0/14400 [00:00<?, ?it/s]Aioli:   8%|▊         | 1080/14400 [05:55<1:13:09,  3.03it/s]Aioli:  23%|██▎       | 3280/14400 [08:15<24:24,  7.60it/s]  Aioli:  23%|██▎       | 3280/14400 [08:35<24:24,  7.60it/s]Aioli:  30%|███       | 4360/14400 [14:15<33:33,  4.99it/s]Aioli:  46%|████▌     | 6560/14400 [16:35<17:16,  7.57it/s]Aioli:  46%|████▌     | 6560/14400 [16:45<17:16,  7.57it/s]Aioli:  53%|█████▎    | 7640/14400 [22:34<20:44,  5.43it/s]Aioli:  68%|██████▊   | 9840/14400 [24:54<10:03,  7.56it/s]Aioli:  68%|██████▊   | 9840/14400 [25:05<10:03,  7.56it/s]Aioli:  76%|███████▌  | 10920/14400 [30:52<10:21,  5.60it/s]Aioli:  91%|█████████ | 13120/14400 [33:12<02:49,  7.56it/s]Aioli:  91%|█████████ | 13120/14400 [33:25<02:49,  7.56it/s]Aioli:  99%|█████████▊| 14200/14400 [39:12<00:35,  5.67it/s]Aioli: 100%|██████████| 14400/14400 [39:24<00:00,  5.88it/s]Aioli: 100%|██████████| 14400/14400 [39:27<00:00,  6.08it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  74%|███████▎  | 56/76 [00:00<00:00, 559.64it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 719.21it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  79%|███████▉  | 60/76 [00:00<00:00, 595.88it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 730.16it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  95%|█████████▍| 72/76 [00:00<00:00, 712.13it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 746.82it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoReMi-style:   0%|          | 0/14400 [00:00<?, ?it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:19<12:55, 15.72it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:38<12:55, 15.72it/s]DoReMi-style:  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]DoReMi-style:  31%|███       | 4400/14400 [04:58<10:43, 15.54it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:05<08:23, 15.49it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:18<08:23, 15.49it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:27<06:02, 15.46it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:38<06:02, 15.46it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.45it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [12:08<03:40, 15.45it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.44it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:28<01:17, 15.44it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:35<00:00, 15.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  24%|██▎       | 18/76 [00:00<00:00, 179.88it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 683.18it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Group-DRO:   0%|          | 0/14400 [00:00<?, ?it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:19<12:56, 15.72it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:39<12:56, 15.72it/s]Group-DRO:  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]Group-DRO:  31%|███       | 4400/14400 [04:59<10:43, 15.54it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:05<08:23, 15.48it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:19<08:23, 15.48it/s]Group-DRO:  61%|██████    | 8800/14400 [09:28<06:02, 15.46it/s]Group-DRO:  61%|██████    | 8800/14400 [09:39<06:02, 15.46it/s]Group-DRO:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]Group-DRO:  76%|███████▋  | 11000/14400 [12:09<03:40, 15.44it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:29<01:17, 15.43it/s]Group-DRO: 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]Group-DRO: 100%|██████████| 14400/14400 [15:35<00:00, 15.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   8%|▊         | 6/76 [00:00<00:01, 59.82it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 664.85it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:24<13:21, 15.22it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:39<13:21, 15.22it/s]DoGE (logged):  31%|███       | 4400/14400 [04:49<10:57, 15.21it/s]DoGE (logged):  31%|███       | 4400/14400 [04:59<10:57, 15.21it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:13<08:32, 15.21it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:29<08:32, 15.21it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:38<06:08, 15.21it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:49<06:08, 15.21it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:03<03:43, 15.21it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:19<03:43, 15.21it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:27<01:18, 15.21it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:39<01:18, 15.21it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:48<00:00, 15.13it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:48<00:00, 15.18it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 1059.88it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   0%|          | 0/18 [00:00<?, ?it/s]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 986.48it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   6%|▌         | 1/18 [00:19<05:25, 19.13s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 1144.98it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  11%|█         | 2/18 [00:38<05:06, 19.15s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:04, 16.82it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 542.47it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  17%|█▋        | 3/18 [00:57<04:48, 19.21s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 786.88it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  22%|██▏       | 4/18 [01:16<04:29, 19.26s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:04, 17.99it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 589.43it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  28%|██▊       | 5/18 [01:36<04:11, 19.31s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:04, 16.12it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 541.60it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  33%|███▎      | 6/18 [01:55<03:51, 19.33s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 801.96it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  39%|███▉      | 7/18 [02:15<03:32, 19.34s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  47%|████▋     | 36/76 [00:00<00:00, 357.22it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 692.43it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  44%|████▍     | 8/18 [02:34<03:13, 19.33s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 868.97it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  50%|█████     | 9/18 [02:53<02:53, 19.31s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  22%|██▏       | 17/76 [00:00<00:00, 169.86it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 659.75it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  56%|█████▌    | 10/18 [03:12<02:34, 19.29s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:03, 19.75it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 624.64it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  61%|██████    | 11/18 [03:32<02:15, 19.31s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   8%|▊         | 6/76 [00:00<00:01, 58.49it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 630.22it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  67%|██████▋   | 12/18 [03:51<01:55, 19.30s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 821.27it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  72%|███████▏  | 13/18 [04:10<01:36, 19.30s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 760.49it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  78%|███████▊  | 14/18 [04:30<01:17, 19.32s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  87%|████████▋ | 66/76 [00:00<00:00, 657.79it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 743.68it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  83%|████████▎ | 15/18 [04:49<00:58, 19.47s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 843.09it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  89%|████████▉ | 16/18 [05:09<00:38, 19.41s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   1%|▏         | 1/76 [00:00<00:07,  9.54it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 602.16it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  94%|█████████▍| 17/18 [05:28<00:19, 19.39s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   1%|▏         | 1/76 [00:00<00:07,  9.43it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 626.21it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph: 100%|██████████| 18/18 [05:47<00:00, 19.36s/it]                                                               Skill-It (logged):   0%|          | 0/14400 [00:00<?, ?it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:20<12:56, 15.70it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:39<12:56, 15.70it/s]Skill-It (logged):  31%|███       | 4400/14400 [04:42<10:43, 15.53it/s]Skill-It (logged):  31%|███       | 4400/14400 [04:59<10:43, 15.53it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:05<08:24, 15.47it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:19<08:24, 15.47it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:28<06:02, 15.45it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:39<06:02, 15.45it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [11:51<03:40, 15.44it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [12:09<03:40, 15.44it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:29<01:17, 15.43it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:35<00:00, 15.39it/s]
+INFO:root:Saved completed seed 0 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/pythia70m_heavy_s2/seed_0.npy
+INFO:root:Starting experiment=pythia70m_heavy seed=1
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 896.45it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Aioli:   0%|          | 0/14400 [00:00<?, ?it/s]Aioli:   8%|▊         | 1080/14400 [05:55<1:13:08,  3.04it/s]Aioli:  23%|██▎       | 3280/14400 [08:15<24:23,  7.60it/s]  Aioli:  23%|██▎       | 3280/14400 [08:26<24:23,  7.60it/s]Aioli:  30%|███       | 4360/14400 [14:14<33:32,  4.99it/s]Aioli:  46%|████▌     | 6560/14400 [16:34<17:15,  7.57it/s]Aioli:  46%|████▌     | 6560/14400 [16:47<17:15,  7.57it/s]Aioli:  53%|█████▎    | 7640/14400 [22:34<20:44,  5.43it/s]Aioli:  68%|██████▊   | 9840/14400 [24:54<10:03,  7.56it/s]Aioli:  68%|██████▊   | 9840/14400 [25:07<10:03,  7.56it/s]Aioli:  76%|███████▌  | 10920/14400 [30:52<10:21,  5.60it/s]Aioli:  91%|█████████ | 13120/14400 [33:12<02:49,  7.56it/s]Aioli:  91%|█████████ | 13120/14400 [33:27<02:49,  7.56it/s]Aioli:  99%|█████████▊| 14200/14400 [39:11<00:35,  5.67it/s]Aioli: 100%|██████████| 14400/14400 [39:24<00:00,  5.88it/s]Aioli: 100%|██████████| 14400/14400 [39:27<00:00,  6.08it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 1121.37it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 48/76 [00:00<00:00, 476.29it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 710.45it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 850.80it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoReMi-style:   0%|          | 0/14400 [00:00<?, ?it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:19<12:55, 15.73it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:30<12:55, 15.73it/s]DoReMi-style:  31%|███       | 4400/14400 [04:42<10:43, 15.55it/s]DoReMi-style:  31%|███       | 4400/14400 [05:00<10:43, 15.55it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:05<08:23, 15.49it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:20<08:23, 15.49it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:27<06:02, 15.46it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:40<06:02, 15.46it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.45it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [12:10<03:40, 15.45it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.44it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:30<01:17, 15.44it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:34<00:00, 15.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   3%|▎         | 2/76 [00:00<00:03, 18.90it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 606.03it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Group-DRO:   0%|          | 0/14400 [00:00<?, ?it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:19<12:55, 15.72it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:30<12:55, 15.72it/s]Group-DRO:  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]Group-DRO:  31%|███       | 4400/14400 [05:00<10:43, 15.54it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:05<08:23, 15.48it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:20<08:23, 15.48it/s]Group-DRO:  61%|██████    | 8800/14400 [09:28<06:02, 15.46it/s]Group-DRO:  61%|██████    | 8800/14400 [09:40<06:02, 15.46it/s]Group-DRO:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]Group-DRO:  76%|███████▋  | 11000/14400 [12:10<03:40, 15.44it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:30<01:17, 15.43it/s]Group-DRO: 100%|██████████| 14400/14400 [15:32<00:00, 15.37it/s]Group-DRO: 100%|██████████| 14400/14400 [15:35<00:00, 15.39it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:  79%|███████▉  | 60/76 [00:00<00:00, 595.88it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 724.23it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:24<13:23, 15.19it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:40<13:23, 15.19it/s]DoGE (logged):  31%|███       | 4400/14400 [04:49<10:58, 15.18it/s]DoGE (logged):  31%|███       | 4400/14400 [05:00<10:58, 15.18it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:14<08:33, 15.19it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:30<08:33, 15.19it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:39<06:08, 15.20it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:50<06:08, 15.20it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:03<03:43, 15.20it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:20<03:43, 15.20it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:28<01:18, 15.20it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:40<01:18, 15.20it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:49<00:00, 15.12it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:49<00:00, 15.17it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 766.98it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   0%|          | 0/18 [00:00<?, ?it/s]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 906.29it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   6%|▌         | 1/18 [00:19<05:30, 19.46s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 886.39it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  11%|█         | 2/18 [00:38<05:11, 19.47s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 850.87it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  17%|█▋        | 3/18 [00:58<04:55, 19.69s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  88%|████████▊ | 67/76 [00:00<00:00, 669.56it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 738.12it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  22%|██▏       | 4/18 [01:18<04:36, 19.78s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  47%|████▋     | 36/76 [00:00<00:00, 358.25it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 678.18it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  28%|██▊       | 5/18 [01:38<04:17, 19.84s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:04, 16.99it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 574.02it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  33%|███▎      | 6/18 [01:58<03:58, 19.86s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  63%|██████▎   | 48/76 [00:00<00:00, 478.81it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 692.00it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  39%|███▉      | 7/18 [02:18<03:38, 19.84s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 986.55it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  44%|████▍     | 8/18 [02:38<03:18, 19.89s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 954.23it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  50%|█████     | 9/18 [02:59<03:03, 20.40s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   1%|▏         | 1/76 [00:00<00:11,  6.41it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 421.33it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  56%|█████▌    | 10/18 [03:19<02:41, 20.18s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 825.67it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  61%|██████    | 11/18 [03:41<02:24, 20.58s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  75%|███████▌  | 57/76 [00:00<00:00, 567.53it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 728.05it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  67%|██████▋   | 12/18 [04:01<02:02, 20.39s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  89%|████████▉ | 68/76 [00:00<00:00, 671.82it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 740.80it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  72%|███████▏  | 13/18 [04:20<01:40, 20.16s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  30%|███       | 23/76 [00:00<00:00, 229.91it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 638.59it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  78%|███████▊  | 14/18 [04:40<01:20, 20.03s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 776.99it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  83%|████████▎ | 15/18 [04:59<00:59, 19.85s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  64%|██████▍   | 49/76 [00:00<00:00, 488.76it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 716.05it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  89%|████████▉ | 16/18 [05:20<00:39, 19.92s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:03, 19.94it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 628.67it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  94%|█████████▍| 17/18 [05:39<00:19, 19.85s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 775.17it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph: 100%|██████████| 18/18 [05:58<00:00, 19.69s/it]                                                               Skill-It (logged):   0%|          | 0/14400 [00:00<?, ?it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:19<12:56, 15.72it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:37<12:56, 15.72it/s]Skill-It (logged):  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]Skill-It (logged):  31%|███       | 4400/14400 [04:57<10:43, 15.54it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:05<08:23, 15.48it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:17<08:23, 15.48it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:28<06:02, 15.46it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:47<06:02, 15.46it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [12:07<03:40, 15.44it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:13<01:17, 15.42it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:27<01:17, 15.42it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:32<00:00, 15.37it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:35<00:00, 15.39it/s]
+INFO:root:Saved completed seed 1 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/pythia70m_heavy_s2/seed_1.npy
+INFO:root:Starting experiment=pythia70m_heavy seed=2
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 912.95it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Aioli:   0%|          | 0/14400 [00:00<?, ?it/s]Aioli:   8%|▊         | 1080/14400 [05:56<1:13:17,  3.03it/s]Aioli:  23%|██▎       | 3280/14400 [08:16<24:26,  7.58it/s]  Aioli:  23%|██▎       | 3280/14400 [08:34<24:26,  7.58it/s]Aioli:  30%|███       | 4360/14400 [14:16<33:36,  4.98it/s]Aioli:  46%|████▌     | 6560/14400 [16:36<17:17,  7.56it/s]Aioli:  46%|████▌     | 6560/14400 [16:54<17:17,  7.56it/s]Aioli:  53%|█████▎    | 7640/14400 [22:36<20:47,  5.42it/s]Aioli:  68%|██████▊   | 9840/14400 [24:56<10:04,  7.54it/s]Aioli:  68%|██████▊   | 9840/14400 [25:14<10:04,  7.54it/s]Aioli:  76%|███████▌  | 10920/14400 [30:56<10:22,  5.59it/s]Aioli:  91%|█████████ | 13120/14400 [33:16<02:49,  7.54it/s]Aioli:  91%|█████████ | 13120/14400 [33:34<02:49,  7.54it/s]Aioli:  99%|█████████▊| 14200/14400 [39:16<00:35,  5.66it/s]Aioli: 100%|██████████| 14400/14400 [39:28<00:00,  5.87it/s]Aioli: 100%|██████████| 14400/14400 [39:31<00:00,  6.07it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 936.06it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   1%|▏         | 1/76 [00:00<00:07,  9.64it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 572.38it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 763.67it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoReMi-style:   0%|          | 0/14400 [00:00<?, ?it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:19<12:56, 15.72it/s]DoReMi-style:  15%|█▌        | 2200/14400 [02:38<12:56, 15.72it/s]DoReMi-style:  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]DoReMi-style:  31%|███       | 4400/14400 [04:58<10:43, 15.54it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:05<08:23, 15.48it/s]DoReMi-style:  46%|████▌     | 6600/14400 [07:18<08:23, 15.48it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:28<06:02, 15.46it/s]DoReMi-style:  61%|██████    | 8800/14400 [09:38<06:02, 15.46it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]DoReMi-style:  76%|███████▋  | 11000/14400 [12:08<03:40, 15.44it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]DoReMi-style:  92%|█████████▏| 13200/14400 [14:28<01:17, 15.43it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]DoReMi-style: 100%|██████████| 14400/14400 [15:35<00:00, 15.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 772.24it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Group-DRO:   0%|          | 0/14400 [00:00<?, ?it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:19<12:56, 15.72it/s]Group-DRO:  15%|█▌        | 2200/14400 [02:38<12:56, 15.72it/s]Group-DRO:  31%|███       | 4400/14400 [04:42<10:43, 15.53it/s]Group-DRO:  31%|███       | 4400/14400 [04:58<10:43, 15.53it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:05<08:23, 15.48it/s]Group-DRO:  46%|████▌     | 6600/14400 [07:18<08:23, 15.48it/s]Group-DRO:  61%|██████    | 8800/14400 [09:28<06:02, 15.45it/s]Group-DRO:  61%|██████    | 8800/14400 [09:38<06:02, 15.45it/s]Group-DRO:  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]Group-DRO:  76%|███████▋  | 11000/14400 [12:08<03:40, 15.44it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]Group-DRO:  92%|█████████▏| 13200/14400 [14:28<01:17, 15.43it/s]Group-DRO: 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]Group-DRO: 100%|██████████| 14400/14400 [15:35<00:00, 15.39it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   1%|▏         | 1/76 [00:00<00:07,  9.89it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 588.52it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+DoGE (logged):   0%|          | 0/14400 [00:00<?, ?it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:24<13:21, 15.21it/s]DoGE (logged):  15%|█▌        | 2200/14400 [02:42<13:21, 15.21it/s]DoGE (logged):  31%|███       | 4400/14400 [04:49<10:57, 15.21it/s]DoGE (logged):  31%|███       | 4400/14400 [05:02<10:57, 15.21it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:13<08:32, 15.21it/s]DoGE (logged):  46%|████▌     | 6600/14400 [07:32<08:32, 15.21it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:38<06:08, 15.21it/s]DoGE (logged):  61%|██████    | 8800/14400 [09:52<06:08, 15.21it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:03<03:43, 15.21it/s]DoGE (logged):  76%|███████▋  | 11000/14400 [12:22<03:43, 15.21it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:27<01:18, 15.21it/s]DoGE (logged):  92%|█████████▏| 13200/14400 [14:42<01:18, 15.21it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:49<00:00, 15.12it/s]DoGE (logged): 100%|██████████| 14400/14400 [15:49<00:00, 15.17it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 1006.95it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   0%|          | 0/18 [00:00<?, ?it/s]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 775.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:   6%|▌         | 1/18 [00:23<06:34, 23.23s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  55%|█████▌    | 42/76 [00:00<00:00, 419.32it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 698.54it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  11%|█         | 2/18 [00:44<05:56, 22.29s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 917.28it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  17%|█▋        | 3/18 [01:06<05:27, 21.83s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 1311.22it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  22%|██▏       | 4/18 [01:26<04:54, 21.06s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 803.06it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  28%|██▊       | 5/18 [01:45<04:28, 20.63s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 1067.40it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  33%|███▎      | 6/18 [02:05<04:02, 20.18s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 846.41it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  39%|███▉      | 7/18 [02:25<03:41, 20.10s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 825.23it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  44%|████▍     | 8/18 [02:45<03:20, 20.05s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 843.10it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  50%|█████     | 9/18 [03:05<03:00, 20.09s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 791.52it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  56%|█████▌    | 10/18 [03:24<02:39, 19.93s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 869.78it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  61%|██████    | 11/18 [03:44<02:19, 19.88s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 2/76 [00:00<00:03, 19.97it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 654.59it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  67%|██████▋   | 12/18 [04:04<01:58, 19.81s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  68%|██████▊   | 52/76 [00:00<00:00, 519.42it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 720.53it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  72%|███████▏  | 13/18 [04:23<01:38, 19.73s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 783.74it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  78%|███████▊  | 14/18 [04:43<01:19, 19.79s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 841.07it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  83%|████████▎ | 15/18 [05:03<00:59, 19.72s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  11%|█         | 8/76 [00:00<00:00, 79.51it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 646.02it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  89%|████████▉ | 16/18 [05:23<00:39, 19.94s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 777.54it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph:  94%|█████████▍| 17/18 [05:45<00:20, 20.50s/it]INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s][A
+Loading weights:  58%|█████▊    | 44/76 [00:00<00:00, 437.00it/s][ALoading weights: 100%|██████████| 76/76 [00:00<00:00, 701.56it/s]
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/EleutherAI/pythia-70m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m/a39f36b100fe8a5377810d56c3f4789b9c53ac42/config.json "HTTP/1.1 200 OK"
+Skill-It graph: 100%|██████████| 18/18 [06:05<00:00, 20.30s/it]                                                               Skill-It (logged):   0%|          | 0/14400 [00:00<?, ?it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:19<12:56, 15.72it/s]Skill-It (logged):  15%|█▌        | 2200/14400 [02:31<12:56, 15.72it/s]Skill-It (logged):  31%|███       | 4400/14400 [04:42<10:43, 15.54it/s]Skill-It (logged):  31%|███       | 4400/14400 [05:01<10:43, 15.54it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:05<08:23, 15.49it/s]Skill-It (logged):  46%|████▌     | 6600/14400 [07:21<08:23, 15.49it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:28<06:02, 15.46it/s]Skill-It (logged):  61%|██████    | 8800/14400 [09:41<06:02, 15.46it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [11:50<03:40, 15.44it/s]Skill-It (logged):  76%|███████▋  | 11000/14400 [12:01<03:40, 15.44it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:13<01:17, 15.43it/s]Skill-It (logged):  92%|█████████▏| 13200/14400 [14:31<01:17, 15.43it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:32<00:00, 15.38it/s]Skill-It (logged): 100%|██████████| 14400/14400 [15:35<00:00, 15.40it/s]
+INFO:root:Saved completed seed 2 to /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/pythia70m_heavy_s2/seed_2.npy
+INFO:root:Completed pythia70m_heavy. Results: /home/dev/shayan_workspace/Main/Code/rebuttal_run/results/pythia70m_heavy_s2

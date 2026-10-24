@@ -1,0 +1,4 @@
+seed,rounds,mean_synthetic_minus_real_normalized_score,std_synthetic_minus_real_normalized_score,realward_rounds,syntheticward_rounds,zero_rounds,final_synthetic_instantaneous_share
+0,7,0.003999430945011254,0.0007135870028235003,0,7,0,0.522259963177622
+1,7,0.007242768823392016,0.0013455200919221825,0,7,0,0.517207756325818
+2,7,0.09755473701495775,0.002782485302292884,0,7,0,0.5589979341050983

@@ -1,0 +1,4 @@
+| config                  | method         |    params |       tokens |              flops | note                                                      |
+|:------------------------|:---------------|----------:|-------------:|-------------------:|:----------------------------------------------------------|
+| doge160_signal_heavy_s2 | base (per run) | 162322944 |   2.3593e+08 | 229780723492454400 | 6*N*D; full per-run budget (incl. Aioli probes)           |
+| doge160_signal_heavy_s2 | DoGE (total)   | 162322944 | nan          | 237823048814690304 | base + 504 logged alignment micro-batches across 7 rounds |

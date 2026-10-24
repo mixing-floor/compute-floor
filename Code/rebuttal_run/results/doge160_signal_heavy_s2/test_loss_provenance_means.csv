@@ -1,0 +1,7 @@
+method,seed,provenance,test_loss
+DoGE,0,real,4.09933262401157
+DoGE,0,synthetic,3.105640764589663
+DoGE,1,real,3.6449290911356607
+DoGE,1,synthetic,2.6356790639736034
+DoGE,2,real,5.106822437710232
+DoGE,2,synthetic,3.8782510315930403

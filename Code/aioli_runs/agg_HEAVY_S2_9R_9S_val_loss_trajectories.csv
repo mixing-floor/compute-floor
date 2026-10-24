@@ -1,0 +1,325 @@
+method,seed,round,pretty,is_synth,val_loss
+Aioli,0,0,Wikipedia (en),False,3.4307096004486084
+Aioli,0,0,Pile-CC,False,3.8328022162119546
+Aioli,0,0,OpenWebText2,False,3.5320677757263184
+Aioli,0,0,Github,False,1.7077035109202068
+Aioli,0,0,PubMed Abstracts,False,3.1599604288736978
+Aioli,0,0,StackExchange,False,2.5370580355326333
+Aioli,0,0,FreeLaw,False,2.761047601699829
+Aioli,0,0,USPTO Backgrounds,False,3.040020147959391
+Aioli,0,0,ArXiv,False,2.4804670015970864
+Aioli,0,0,UltraChat,True,2.86070982615153
+Aioli,0,0,Self-Instruct,True,3.647639592488607
+Aioli,0,0,Cosmopedia,True,3.646647055943807
+Aioli,0,0,Code-Alpaca,True,2.2744202613830566
+Aioli,0,0,GPTeacher,True,3.4101765155792236
+Aioli,0,0,WizardLM-70k,True,2.4755070209503174
+Aioli,0,0,Alpaca-52k,True,3.208897590637207
+Aioli,0,0,ShareGPT,True,2.251258134841919
+Aioli,0,0,Open-Platypus,True,2.339165369669596
+Aioli,0,1,Wikipedia (en),False,4.734567960103353
+Aioli,0,1,Pile-CC,False,4.997716108957927
+Aioli,0,1,OpenWebText2,False,4.8933126131693525
+Aioli,0,1,Github,False,3.103593031565348
+Aioli,0,1,PubMed Abstracts,False,4.623703161875407
+Aioli,0,1,StackExchange,False,3.82728377978007
+Aioli,0,1,FreeLaw,False,4.170103867848714
+Aioli,0,1,USPTO Backgrounds,False,4.18543275197347
+Aioli,0,1,ArXiv,False,3.519031286239624
+Aioli,0,1,UltraChat,True,3.7613085905710855
+Aioli,0,1,Self-Instruct,True,4.133759657541911
+Aioli,0,1,Cosmopedia,True,3.705291271209717
+Aioli,0,1,Code-Alpaca,True,2.177018960316976
+Aioli,0,1,GPTeacher,True,3.3564788500467935
+Aioli,0,1,WizardLM-70k,True,3.2147844632466636
+Aioli,0,1,Alpaca-52k,True,3.229990005493164
+Aioli,0,1,ShareGPT,True,2.7871920267740884
+Aioli,0,1,Open-Platypus,True,2.3960164388020835
+Aioli,0,2,Wikipedia (en),False,4.632809480031331
+Aioli,0,2,Pile-CC,False,4.913504759470622
+Aioli,0,2,OpenWebText2,False,4.791464010874431
+Aioli,0,2,Github,False,2.924461285273234
+Aioli,0,2,PubMed Abstracts,False,4.528436660766602
+Aioli,0,2,StackExchange,False,3.6898032824198403
+Aioli,0,2,FreeLaw,False,4.053356250127156
+Aioli,0,2,USPTO Backgrounds,False,4.102225701014201
+Aioli,0,2,ArXiv,False,3.418349107106527
+Aioli,0,2,UltraChat,True,3.6865811347961426
+Aioli,0,2,Self-Instruct,True,4.046178658803304
+Aioli,0,2,Cosmopedia,True,3.611130952835083
+Aioli,0,2,Code-Alpaca,True,2.0304625431696572
+Aioli,0,2,GPTeacher,True,3.2494747638702393
+Aioli,0,2,WizardLM-70k,True,3.101457198460897
+Aioli,0,2,Alpaca-52k,True,3.1205262343088784
+Aioli,0,2,ShareGPT,True,2.669499158859253
+Aioli,0,2,Open-Platypus,True,2.2600253423055015
+Aioli,0,3,Wikipedia (en),False,4.46284294128418
+Aioli,0,3,Pile-CC,False,4.771425088246663
+Aioli,0,3,OpenWebText2,False,4.6361762682596845
+Aioli,0,3,Github,False,2.7178030808766684
+Aioli,0,3,PubMed Abstracts,False,4.333986123402913
+Aioli,0,3,StackExchange,False,3.503734747568766
+Aioli,0,3,FreeLaw,False,3.882250944773356
+Aioli,0,3,USPTO Backgrounds,False,3.9290734132130942
+Aioli,0,3,ArXiv,False,3.2403830687204995
+Aioli,0,3,UltraChat,True,3.487529436747233
+Aioli,0,3,Self-Instruct,True,3.8752803007761636
+Aioli,0,3,Cosmopedia,True,3.442609945933024
+Aioli,0,3,Code-Alpaca,True,1.8665424187978108
+Aioli,0,3,GPTeacher,True,3.0776449044545493
+Aioli,0,3,WizardLM-70k,True,2.8763808409372964
+Aioli,0,3,Alpaca-52k,True,2.9466195106506348
+Aioli,0,3,ShareGPT,True,2.49944806098938
+Aioli,0,3,Open-Platypus,True,2.1219205061594644
+Aioli,0,4,Wikipedia (en),False,4.400393168131511
+Aioli,0,4,Pile-CC,False,4.718257586161296
+Aioli,0,4,OpenWebText2,False,4.578756173451741
+Aioli,0,4,Github,False,2.659820636113485
+Aioli,0,4,PubMed Abstracts,False,4.265216668446858
+Aioli,0,4,StackExchange,False,3.445836067199707
+Aioli,0,4,FreeLaw,False,3.8207103411356607
+Aioli,0,4,USPTO Backgrounds,False,3.8661131064097085
+Aioli,0,4,ArXiv,False,3.1814018885294595
+Aioli,0,4,UltraChat,True,3.421628793080648
+Aioli,0,4,Self-Instruct,True,3.823209206263224
+Aioli,0,4,Cosmopedia,True,3.3820602099100747
+Aioli,0,4,Code-Alpaca,True,1.8163688977559407
+Aioli,0,4,GPTeacher,True,3.014187733332316
+Aioli,0,4,WizardLM-70k,True,2.8071598211924234
+Aioli,0,4,Alpaca-52k,True,2.893885056177775
+Aioli,0,4,ShareGPT,True,2.4456307888031006
+Aioli,0,4,Open-Platypus,True,2.073608160018921
+Aioli,0,5,Wikipedia (en),False,4.397444089253743
+Aioli,0,5,Pile-CC,False,4.715290228525798
+Aioli,0,5,OpenWebText2,False,4.576889197031657
+Aioli,0,5,Github,False,2.658331553141276
+Aioli,0,5,PubMed Abstracts,False,4.263398011525472
+Aioli,0,5,StackExchange,False,3.4437899589538574
+Aioli,0,5,FreeLaw,False,3.819418748219808
+Aioli,0,5,USPTO Backgrounds,False,3.864739259084066
+Aioli,0,5,ArXiv,False,3.179654598236084
+Aioli,0,5,UltraChat,True,3.4194199244181314
+Aioli,0,5,Self-Instruct,True,3.8194291591644287
+Aioli,0,5,Cosmopedia,True,3.379770199457804
+Aioli,0,5,Code-Alpaca,True,1.8142915566762288
+Aioli,0,5,GPTeacher,True,3.0111098289489746
+Aioli,0,5,WizardLM-70k,True,2.805505116780599
+Aioli,0,5,Alpaca-52k,True,2.891706943511963
+Aioli,0,5,ShareGPT,True,2.443882783253988
+Aioli,0,5,Open-Platypus,True,2.0725656350453696
+Aioli,1,0,Wikipedia (en),False,3.4307096004486084
+Aioli,1,0,Pile-CC,False,3.8328022162119546
+Aioli,1,0,OpenWebText2,False,3.5320677757263184
+Aioli,1,0,Github,False,1.7077035109202068
+Aioli,1,0,PubMed Abstracts,False,3.1599604288736978
+Aioli,1,0,StackExchange,False,2.5370580355326333
+Aioli,1,0,FreeLaw,False,2.761047601699829
+Aioli,1,0,USPTO Backgrounds,False,3.040020147959391
+Aioli,1,0,ArXiv,False,2.4804670015970864
+Aioli,1,0,UltraChat,True,2.86070982615153
+Aioli,1,0,Self-Instruct,True,3.647639592488607
+Aioli,1,0,Cosmopedia,True,3.646647055943807
+Aioli,1,0,Code-Alpaca,True,2.2744202613830566
+Aioli,1,0,GPTeacher,True,3.4101765155792236
+Aioli,1,0,WizardLM-70k,True,2.4755070209503174
+Aioli,1,0,Alpaca-52k,True,3.208897590637207
+Aioli,1,0,ShareGPT,True,2.251258134841919
+Aioli,1,0,Open-Platypus,True,2.339165369669596
+Aioli,1,1,Wikipedia (en),False,5.338425477345784
+Aioli,1,1,Pile-CC,False,5.478195508321126
+Aioli,1,1,OpenWebText2,False,5.418171246846517
+Aioli,1,1,Github,False,3.8557163874308267
+Aioli,1,1,PubMed Abstracts,False,5.210531552632649
+Aioli,1,1,StackExchange,False,4.484350204467773
+Aioli,1,1,FreeLaw,False,4.748743216196696
+Aioli,1,1,USPTO Backgrounds,False,4.749344825744629
+Aioli,1,1,ArXiv,False,4.151744365692139
+Aioli,1,1,UltraChat,True,4.409943262736003
+Aioli,1,1,Self-Instruct,True,4.681608994801839
+Aioli,1,1,Cosmopedia,True,4.363640467325847
+Aioli,1,1,Code-Alpaca,True,2.7486316363016763
+Aioli,1,1,GPTeacher,True,3.959132512410482
+Aioli,1,1,WizardLM-70k,True,3.950415849685669
+Aioli,1,1,Alpaca-52k,True,3.775259017944336
+Aioli,1,1,ShareGPT,True,3.443085193634033
+Aioli,1,1,Open-Platypus,True,2.8626734415690103
+Aioli,1,2,Wikipedia (en),False,4.985417207082112
+Aioli,1,2,Pile-CC,False,5.195846716562907
+Aioli,1,2,OpenWebText2,False,5.096389452616374
+Aioli,1,2,Github,False,3.3167638778686523
+Aioli,1,2,PubMed Abstracts,False,4.8622158368428545
+Aioli,1,2,StackExchange,False,4.0598381360371905
+Aioli,1,2,FreeLaw,False,4.3885776201883955
+Aioli,1,2,USPTO Backgrounds,False,4.403275330861409
+Aioli,1,2,ArXiv,False,3.7629353205362954
+Aioli,1,2,UltraChat,True,4.0429770946502686
+Aioli,1,2,Self-Instruct,True,4.350269794464111
+Aioli,1,2,Cosmopedia,True,3.977309068044027
+Aioli,1,2,Code-Alpaca,True,2.367250839869181
+Aioli,1,2,GPTeacher,True,3.614412546157837
+Aioli,1,2,WizardLM-70k,True,3.5191357930501304
+Aioli,1,2,Alpaca-52k,True,3.4319185415903726
+Aioli,1,2,ShareGPT,True,2.985959529876709
+Aioli,1,2,Open-Platypus,True,2.5211596488952637
+Aioli,1,3,Wikipedia (en),False,4.819698333740234
+Aioli,1,3,Pile-CC,False,5.0666399002075195
+Aioli,1,3,OpenWebText2,False,4.961921056111653
+Aioli,1,3,Github,False,3.14644463857015
+Aioli,1,3,PubMed Abstracts,False,4.700937906901042
+Aioli,1,3,StackExchange,False,3.902029832204183
+Aioli,1,3,FreeLaw,False,4.243980248769124
+Aioli,1,3,USPTO Backgrounds,False,4.245186010996501
+Aioli,1,3,ArXiv,False,3.6143320401509604
+Aioli,1,3,UltraChat,True,3.876756270726522
+Aioli,1,3,Self-Instruct,True,4.207822481791179
+Aioli,1,3,Cosmopedia,True,3.80885903040568
+Aioli,1,3,Code-Alpaca,True,2.17802365620931
+Aioli,1,3,GPTeacher,True,3.4369622071584067
+Aioli,1,3,WizardLM-70k,True,3.3279735247294107
+Aioli,1,3,Alpaca-52k,True,3.2762765884399414
+Aioli,1,3,ShareGPT,True,2.820495128631592
+Aioli,1,3,Open-Platypus,True,2.3962729771931968
+Aioli,1,4,Wikipedia (en),False,4.775402386983235
+Aioli,1,4,Pile-CC,False,5.021620909372966
+Aioli,1,4,OpenWebText2,False,4.911895116170247
+Aioli,1,4,Github,False,3.0824174086252847
+Aioli,1,4,PubMed Abstracts,False,4.6456858317057295
+Aioli,1,4,StackExchange,False,3.846977472305298
+Aioli,1,4,FreeLaw,False,4.187400499979655
+Aioli,1,4,USPTO Backgrounds,False,4.195900122324626
+Aioli,1,4,ArXiv,False,3.559180657068888
+Aioli,1,4,UltraChat,True,3.814516226450602
+Aioli,1,4,Self-Instruct,True,4.157430489857991
+Aioli,1,4,Cosmopedia,True,3.7465023199717202
+Aioli,1,4,Code-Alpaca,True,2.116800626118978
+Aioli,1,4,GPTeacher,True,3.375776211420695
+Aioli,1,4,WizardLM-70k,True,3.260793924331665
+Aioli,1,4,Alpaca-52k,True,3.2177693843841553
+Aioli,1,4,ShareGPT,True,2.7643613815307617
+Aioli,1,4,Open-Platypus,True,2.3412084579467773
+Aioli,1,5,Wikipedia (en),False,4.773713747660319
+Aioli,1,5,Pile-CC,False,5.01992400487264
+Aioli,1,5,OpenWebText2,False,4.909131368001302
+Aioli,1,5,Github,False,3.0803133646647134
+Aioli,1,5,PubMed Abstracts,False,4.641910394032796
+Aioli,1,5,StackExchange,False,3.843544880549113
+Aioli,1,5,FreeLaw,False,4.182962576548259
+Aioli,1,5,USPTO Backgrounds,False,4.192551294962565
+Aioli,1,5,ArXiv,False,3.556989828745524
+Aioli,1,5,UltraChat,True,3.8121469815572104
+Aioli,1,5,Self-Instruct,True,4.1535617510477705
+Aioli,1,5,Cosmopedia,True,3.743903636932373
+Aioli,1,5,Code-Alpaca,True,2.1130857467651367
+Aioli,1,5,GPTeacher,True,3.372275988260905
+Aioli,1,5,WizardLM-70k,True,3.2573798497517905
+Aioli,1,5,Alpaca-52k,True,3.2144663333892822
+Aioli,1,5,ShareGPT,True,2.7619334061940513
+Aioli,1,5,Open-Platypus,True,2.338881492614746
+Aioli,2,0,Wikipedia (en),False,3.4307096004486084
+Aioli,2,0,Pile-CC,False,3.8328022162119546
+Aioli,2,0,OpenWebText2,False,3.5320677757263184
+Aioli,2,0,Github,False,1.7077035109202068
+Aioli,2,0,PubMed Abstracts,False,3.1599604288736978
+Aioli,2,0,StackExchange,False,2.5370580355326333
+Aioli,2,0,FreeLaw,False,2.761047601699829
+Aioli,2,0,USPTO Backgrounds,False,3.040020147959391
+Aioli,2,0,ArXiv,False,2.4804670015970864
+Aioli,2,0,UltraChat,True,2.86070982615153
+Aioli,2,0,Self-Instruct,True,3.647639592488607
+Aioli,2,0,Cosmopedia,True,3.646647055943807
+Aioli,2,0,Code-Alpaca,True,2.2744202613830566
+Aioli,2,0,GPTeacher,True,3.4101765155792236
+Aioli,2,0,WizardLM-70k,True,2.4755070209503174
+Aioli,2,0,Alpaca-52k,True,3.208897590637207
+Aioli,2,0,ShareGPT,True,2.251258134841919
+Aioli,2,0,Open-Platypus,True,2.339165369669596
+Aioli,2,1,Wikipedia (en),False,5.211344877878825
+Aioli,2,1,Pile-CC,False,5.396963596343994
+Aioli,2,1,OpenWebText2,False,5.3228349685668945
+Aioli,2,1,Github,False,3.670001665751139
+Aioli,2,1,PubMed Abstracts,False,5.127287705739339
+Aioli,2,1,StackExchange,False,4.32821003595988
+Aioli,2,1,FreeLaw,False,4.644722620646159
+Aioli,2,1,USPTO Backgrounds,False,4.630757649739583
+Aioli,2,1,ArXiv,False,4.0170784791310625
+Aioli,2,1,UltraChat,True,4.310166835784912
+Aioli,2,1,Self-Instruct,True,4.611225763956706
+Aioli,2,1,Cosmopedia,True,4.237165768941243
+Aioli,2,1,Code-Alpaca,True,2.7128541469573975
+Aioli,2,1,GPTeacher,True,3.9015172322591147
+Aioli,2,1,WizardLM-70k,True,3.8262646993001304
+Aioli,2,1,Alpaca-52k,True,3.690861543019613
+Aioli,2,1,ShareGPT,True,3.236318031946818
+Aioli,2,1,Open-Platypus,True,2.7969706853230796
+Aioli,2,2,Wikipedia (en),False,4.913224856058757
+Aioli,2,2,Pile-CC,False,5.133383750915527
+Aioli,2,2,OpenWebText2,False,5.036180337270101
+Aioli,2,2,Github,False,3.1653483708699546
+Aioli,2,2,PubMed Abstracts,False,4.796361128489177
+Aioli,2,2,StackExchange,False,3.9361372788747153
+Aioli,2,2,FreeLaw,False,4.3452761967976885
+Aioli,2,2,USPTO Backgrounds,False,4.336047013600667
+Aioli,2,2,ArXiv,False,3.6729342142740884
+Aioli,2,2,UltraChat,True,3.9987641175587973
+Aioli,2,2,Self-Instruct,True,4.328731854756673
+Aioli,2,2,Cosmopedia,True,3.917956829071045
+Aioli,2,2,Code-Alpaca,True,2.3079353968302407
+Aioli,2,2,GPTeacher,True,3.5818207263946533
+Aioli,2,2,WizardLM-70k,True,3.440919558207194
+Aioli,2,2,Alpaca-52k,True,3.401064157485962
+Aioli,2,2,ShareGPT,True,2.9144718647003174
+Aioli,2,2,Open-Platypus,True,2.4931517442067466
+Aioli,2,3,Wikipedia (en),False,4.75652281443278
+Aioli,2,3,Pile-CC,False,5.016404628753662
+Aioli,2,3,OpenWebText2,False,4.912871201833089
+Aioli,2,3,Github,False,3.0374975204467773
+Aioli,2,3,PubMed Abstracts,False,4.651216506958008
+Aioli,2,3,StackExchange,False,3.787147601445516
+Aioli,2,3,FreeLaw,False,4.193493048350017
+Aioli,2,3,USPTO Backgrounds,False,4.18853775660197
+Aioli,2,3,ArXiv,False,3.5233141581217446
+Aioli,2,3,UltraChat,True,3.828519582748413
+Aioli,2,3,Self-Instruct,True,4.179970582326253
+Aioli,2,3,Cosmopedia,True,3.761830727259318
+Aioli,2,3,Code-Alpaca,True,2.1495936711629233
+Aioli,2,3,GPTeacher,True,3.421264886856079
+Aioli,2,3,WizardLM-70k,True,3.2683826287587485
+Aioli,2,3,Alpaca-52k,True,3.243898073832194
+Aioli,2,3,ShareGPT,True,2.752584536870321
+Aioli,2,3,Open-Platypus,True,2.3487605253855386
+Aioli,2,4,Wikipedia (en),False,4.695698897043864
+Aioli,2,4,Pile-CC,False,4.957967440287272
+Aioli,2,4,OpenWebText2,False,4.850610891977946
+Aioli,2,4,Github,False,2.9530707200368247
+Aioli,2,4,PubMed Abstracts,False,4.571384112040202
+Aioli,2,4,StackExchange,False,3.7226222356160483
+Aioli,2,4,FreeLaw,False,4.123819351196289
+Aioli,2,4,USPTO Backgrounds,False,4.126990000406901
+Aioli,2,4,ArXiv,False,3.4619672298431396
+Aioli,2,4,UltraChat,True,3.7535603046417236
+Aioli,2,4,Self-Instruct,True,4.112326145172119
+Aioli,2,4,Cosmopedia,True,3.7006448109944663
+Aioli,2,4,Code-Alpaca,True,2.0757265090942383
+Aioli,2,4,GPTeacher,True,3.3530983130137124
+Aioli,2,4,WizardLM-70k,True,3.1767686208089194
+Aioli,2,4,Alpaca-52k,True,3.1749815146128335
+Aioli,2,4,ShareGPT,True,2.689239501953125
+Aioli,2,4,Open-Platypus,True,2.2897589206695557
+Aioli,2,5,Wikipedia (en),False,4.692798932393392
+Aioli,2,5,Pile-CC,False,4.955305258433024
+Aioli,2,5,OpenWebText2,False,4.847892761230469
+Aioli,2,5,Github,False,2.950259208679199
+Aioli,2,5,PubMed Abstracts,False,4.567784786224365
+Aioli,2,5,StackExchange,False,3.7199684778849282
+Aioli,2,5,FreeLaw,False,4.1212490399678545
+Aioli,2,5,USPTO Backgrounds,False,4.125265916188558
+Aioli,2,5,ArXiv,False,3.4586302439371743
+Aioli,2,5,UltraChat,True,3.7507854302724204
+Aioli,2,5,Self-Instruct,True,4.108022530873616
+Aioli,2,5,Cosmopedia,True,3.6976900895436606
+Aioli,2,5,Code-Alpaca,True,2.073567787806193
+Aioli,2,5,GPTeacher,True,3.34986678759257
+Aioli,2,5,WizardLM-70k,True,3.1751693884531655
+Aioli,2,5,Alpaca-52k,True,3.1713860034942627
+Aioli,2,5,ShareGPT,True,2.686316172281901
+Aioli,2,5,Open-Platypus,True,2.2872567176818848

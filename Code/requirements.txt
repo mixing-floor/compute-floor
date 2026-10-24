@@ -1,0 +1,11 @@
+torch>=2.1
+transformers>=4.42
+datasets>=2.20
+accelerate>=0.33
+tokenizers>=0.19
+numpy
+pandas
+matplotlib
+scipy
+tqdm
+tabulate
