@@ -130,7 +130,7 @@ DoGE adds +3 % (alignment micro-batches) and Skill-It +25 % (one-time skills-gra
 
 ### Signal-level diagnostics
 
-`Code/diagnostics` wraps the unmodified runner and logs the raw signals each update consumes: DoGE's gradient inner products split into self and cross-provenance terms, Skill-It's learned influence graph, and Aioli's interaction-matrix blocks. It defines two experiments:
+`Code/diagnostics` wraps the unmodified runner and logs the raw signals each update consumes: DoGE's gradient inner products split into self and cross-provenance terms, Skill-It's learned influence graph, and Aioli's interaction-matrix blocks. It defines two distinct experiments:
 
 ```bash
 python Code/diagnostics/run_diagnostics.py doge160_signal    --seeds 0 1 2   # DoGE signal audit, Pythia-160m
